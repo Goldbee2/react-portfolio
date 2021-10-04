@@ -10,7 +10,7 @@ function Card({title, body, width, height}) {
 
     return (
         <div className="card-container" style={cardStyles}>
-            <div clasName = "card-content">
+            <div className = "card-content">
                 <h3 className = "card-title">
                     {title}
                 </h3>
