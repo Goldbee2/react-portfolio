@@ -2,11 +2,11 @@ import React from 'react'
 import "./StatBar.css"
 
 
-function StatBar({bar_width, color1, color2, label}) {
+function StatBar({bar_width, color1, color2, label, height}) {
 
     const outerStyles = {
-        width: "120px",
-        height: "12px",
+        width: "60%",
+        height: `${height}`,
         backgroundColor: "whitesmoke",
         boxShadow: "inset 0px 0px 4px -2px rgba(0, 0, 0, 0.3)",
         borderRadius: "20px"
